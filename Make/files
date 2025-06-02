@@ -1,0 +1,6 @@
+fvPatchFields = fields/fvPatchFields
+derivedFvPatchFields = $(fvPatchFields)/derived
+basicFvPatchFields = $(fvPatchFields)/basic
+$(derivedFvPatchFields)/pressureOutletLMCBC/pressureOutletLMCBCFvPatchFields.C
+$(derivedFvPatchFields)/velocityOutletLMCBC/velocityOutletLMCBCFvPatchVectorField.C
+LIB = $(FOAM_USER_LIBBIN)/libmyFiniteVolume
